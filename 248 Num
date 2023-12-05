@@ -1,0 +1,7 @@
+n=int(input())
+c=0
+for i in range(0,n+1):
+    if '2' in  str(i) or '4' in str(i) or '8' in str(i):
+        if str(i).count('2')==str(i).count('4') and str(i).count('4')==str(i).count('8'):
+            c+=1
+print(c)
